@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/clientlib_assignment" mode="merge"/>
+    <filter root="/content/clientlib_assignment" mode="merge"/>
+    <filter root="/content/dam/clientlib_assignment" mode="merge"/>
+</workspaceFilter>

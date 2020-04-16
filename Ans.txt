@@ -1,0 +1,17 @@
+Problem 2: How many requests are made when you embed a clientLib which itself has one dependency?
+Ans There will be two request one for the dependency and one for the clientLib in which
+    we are embedding the other clientLib.
+
+Problem 3: Create 3 clientlibs. Embed clientlib3 in clientlib2 and clientlib2 in clientlib1.
+           State the observation with respect to the number of calls and content of clientlib.
+Ans: If we call clientLib1 in our code then there is one single network call for that and clientLib2 will we
+     concatenated or added before the clienLib1.
+     It is to be noted that the content from clientlib3 will not be embeded in this case.
+
+
+    If we call clientLib2 in our code then again there will be a single network call and clientLib3 will we
+    concatenated or added before the clienLib2.
+
+
+    If we call both clientLib2 and clientLib1 then there will be two separte calls and result will similar to
+    the above statement.

@@ -1,0 +1,2 @@
+#base=js
+clib2.js
